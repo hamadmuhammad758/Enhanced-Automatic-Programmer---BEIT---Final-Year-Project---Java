@@ -1,0 +1,35 @@
+
+/*-----LCD Setting---------*/
+sbit LCD_RS at RA0_bit;
+sbit LCD_EN at RA1_bit;
+sbit LCD_D0 at RB0_bit;
+sbit LCD_D1 at RB1_bit;
+sbit LCD_D2 at RB2_bit;
+sbit LCD_D3 at RB3_bit;
+sbit LCD_D4 at RB4_bit;
+sbit LCD_D5 at RB5_bit;
+sbit LCD_D6 at RB6_bit;
+sbit LCD_D7 at RB7_bit;
+sbit LCD_RS_Direction at TRISA0_bit;
+sbit LCD_EN_Direction at TRISA1_bit;
+sbit LCD_D0_Direction at TRISB0_bit;
+sbit LCD_D1_Direction at TRISB1_bit;
+sbit LCD_D2_Direction at TRISB2_bit;
+sbit LCD_D3_Direction at TRISB3_bit;
+sbit LCD_D4_Direction at TRISB4_bit;
+sbit LCD_D5_Direction at TRISB5_bit;
+sbit LCD_D6_Direction at TRISB6_bit;
+sbit LCD_D7_Direction at TRISB7_bit;
+/*------------LCD Setting Ends */
+void setting()
+{
+
+}
+void Main()
+{
+	setting();
+	while(1)
+	{
+
+	}
+}
